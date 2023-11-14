@@ -15,3 +15,7 @@ def test_app_analyzer():
                }
 
     assert expected == collect_function_structure(test_input_path)
+
+
+def another_function():
+    pass
